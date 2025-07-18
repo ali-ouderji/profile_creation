@@ -2,7 +2,7 @@ import streamlit as st
 
 st.title("👤 User Profile Creator")
 st.write("Fill in your information below:")
-st.image('https://www.pexels.com/photo/abstract-motion-blur-at-night-event-32652834/', use_container_width=True)
+st.image('https://github.com/ali-ouderji/profile_creation/blob/main/Logo.png', use_container_width=True)
 
 # Get user inputs
 name = st.text_input("Full Name")
