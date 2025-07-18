@@ -1,7 +1,7 @@
 import streamlit as st
 
 st.image('Logo.png', use_container_width=True)
-st.title("👤 User Profile Creator")
+st.title("👦🏻 User Profile Creator")
 st.write("Fill in your information below:")
 
 # Get user inputs
@@ -24,7 +24,7 @@ if st.button("Create Profile"):
 
         st.success("✅ Profile created successfully!")
         st.markdown("---")
-        st.subheader("👤 Your Profile")
+        st.subheader("👦🏻 Your Profile")
         st.write(f"**Name:** {name}")
         st.write(f"**Email:** {email}")
         st.write(f"**Age:** {age}")
